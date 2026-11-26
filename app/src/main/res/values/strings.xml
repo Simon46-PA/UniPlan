@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UniPlan</string>
+
+    <!-- Navegación -->
+    <string name="tab_home">Inicio</string>
+    <string name="tab_tasks">Tareas</string>
+    <string name="tab_calendar">Calendario</string>
+
+    <!-- Pantalla 1: Inicio de sesión -->
+    <string name="logo_description">Logotipo de UniPlan</string>
+    <string name="login_welcome">Bienvenido a UniPlan</string>
+    <string name="login_subtitle">Organiza tus tareas, entregas y horarios en un solo lugar</string>
+    <string name="login_email_label">Correo electrónico</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_show_password">Mostrar contraseña</string>
+    <string name="login_hide_password">Ocultar contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login_create_account">Crear cuenta</string>
+    <string name="login_error_email_empty">Escribe tu correo</string>
+    <string name="login_error_email_invalid">Escribe un correo válido</string>
+    <string name="login_error_password_empty">Escribe tu contraseña</string>
+    <string name="login_recovery_sent">Enviamos un correo de recuperación a %1$s</string>
+    <string name="login_create_account_soon">El registro estará disponible próximamente</string>
+
+    <!-- Pantalla 2: Inicio -->
+    <string name="home_greeting">Hola, %1$s</string>
+    <string name="home_profile">Perfil</string>
+    <string name="home_logout">Cerrar sesión</string>
+    <string name="home_today_title">Para hoy</string>
+    <string name="home_classes_title">Clases de hoy</string>
+    <string name="home_progress_title">Progreso semanal</string>
+    <string name="home_see_all">Ver todas</string>
+    <string name="home_progress_value">%1$d%% de tus tareas completadas</string>
+    <string name="home_no_tasks_today">No tienes tareas para hoy</string>
+
+    <!-- Pantalla 3: Mis tareas -->
+    <string name="tasks_title">Mis tareas</string>
+    <string name="tasks_search_hint">Buscar tareas</string>
+    <string name="tasks_empty">No hay tareas que mostrar</string>
+    <string name="tasks_deleted">Tarea eliminada</string>
+    <string name="tasks_undo">Deshacer</string>
+    <string name="tasks_add">Nueva tarea</string>
+    <string name="tasks_delete">Eliminar tarea</string>
+    <string name="task_item_info">%1$s · %2$s</string>
+    <string name="filter_all">Todas</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="filter_in_progress">En progreso</string>
+    <string name="filter_completed">Completadas</string>
+    <string name="filter_subject_mobile">Móviles</string>
+    <string name="task_no_subject">Sin materia</string>
+    <string name="task_no_date">Sin fecha</string>
+
+    <!-- Diálogo para agregar tarea (guarda en Room) -->
+    <string name="dialog_add_title">Nueva tarea</string>
+    <string name="dialog_field_title">Título</string>
+    <string name="dialog_field_subject">Materia (opcional)</string>
+    <string name="dialog_save">Guardar</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <!-- Calendario (pantalla pendiente) -->
+    <string name="calendar_title">Calendario</string>
+    <string name="calendar_soon">El calendario se agregará en la siguiente entrega</string>
+
+    <!-- Materias -->
+    <string name="subject_mobile">Desarrollo de aplicaciones móviles</string>
+    <string name="subject_data_structures">Estructura de datos</string>
+    <string name="subject_calculus">Cálculo de varias variables</string>
+    <string name="subject_english">Inglés</string>
+    <string name="subject_ethics">Ética profesional</string>
+    <string name="subject_web">Programación web</string>
+
+    <!-- Tareas de ejemplo -->
+    <string name="task_prototype">Entregar prototipo de UniPlan</string>
+    <string name="task_linked_lists">Práctica de listas enlazadas</string>
+    <string name="task_calculus_set">Problemario de la Unidad 1</string>
+    <string name="task_simple_past">Ejercicios de pasado simple</string>
+    <string name="task_compose">Investigar Jetpack Compose</string>
+    <string name="task_ethics">Decálogo de ética profesional</string>
+    <string name="task_web_report">Reporte de lenguajes web</string>
+
+    <!-- Fechas de ejemplo -->
+    <string name="date_today_night">Hoy, 11:59 p. m.</string>
+    <string name="date_today_afternoon">Hoy, 3:00 p. m.</string>
+    <string name="date_today_evening">Hoy, 6:00 p. m.</string>
+    <string name="date_tomorrow">Mañana, 9:00 a. m.</string>
+    <string name="date_friday">Viernes, 10:00 a. m.</string>
+    <string name="date_done_ethics">Entregada el 15 de noviembre</string>
+    <string name="date_done_web">Entregada el 20 de octubre</string>
+
+    <!-- Clases de ejemplo -->
+    <string name="class_mobile_name">Desarrollo de aplicaciones móviles</string>
+    <string name="class_mobile_info">8:00 a. m. · Laboratorio 3</string>
+    <string name="class_data_name">Estructura de datos</string>
+    <string name="class_data_info">11:00 a. m. · Salón B-12</string>
+
+    <!-- Navegación (nueva pestaña) -->
+    <string name="tab_subjects">Materias</string>
+
+    <!-- Errores personalizados -->
+    <string name="login_error_invalid_credentials">Correo o contraseña incorrectos</string>
+    <string name="error_database">No se pudo acceder a los datos. Inténtalo de nuevo</string>
+    <string name="error_save">No se pudo guardar. Inténtalo de nuevo</string>
+    <string name="error_delete">No se pudo eliminar. Inténtalo de nuevo</string>
+    <string name="error_task_title">El título de la tarea es obligatorio y no puede pasar de 60 caracteres</string>
+    <string name="error_subject_name">El nombre de la materia es obligatorio y no puede pasar de 60 caracteres</string>
+    <string name="error_class_invalid">Revisa la materia y los horarios de la clase</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crea tu cuenta</string>
+    <string name="register_name_label">Nombre</string>
+    <string name="register_confirm_label">Confirmar contraseña</string>
+    <string name="register_button">Registrarme</string>
+    <string name="register_back_to_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="register_error_name_empty">Escribe tu nombre</string>
+    <string name="register_error_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="register_error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="register_error_email_taken">Ese correo ya está registrado</string>
+
+    <!-- Perfil -->
+    <string name="home_edit_profile">Editar perfil</string>
+    <string name="home_delete_account">Eliminar cuenta</string>
+    <string name="profile_dialog_title">Editar perfil</string>
+    <string name="delete_account_title">¿Eliminar tu cuenta?</string>
+    <string name="delete_account_message">Se borrará tu cuenta de este dispositivo. Esta acción no se puede deshacer.</string>
+
+    <!-- Acciones comunes -->
+    <string name="dialog_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+
+    <!-- Materias -->
+    <string name="subjects_title">Mis materias</string>
+    <string name="subjects_empty">Aún no tienes materias. Toca + para agregar una</string>
+    <string name="subjects_add">Nueva materia</string>
+    <string name="subject_dialog_add_title">Nueva materia</string>
+    <string name="subject_dialog_edit_title">Editar materia</string>
+    <string name="subject_field_name">Nombre de la materia</string>
+    <string name="subject_field_room">Salón (opcional)</string>
+    <string name="subject_delete_title">¿Eliminar materia?</string>
+    <string name="subject_delete_message">Se eliminará %1$s y también sus clases del horario.</string>
+    <string name="room_lab3">Laboratorio 3</string>
+    <string name="room_b12">Salón B-12</string>
+    <string name="room_tbd">Salón por definir</string>
+
+    <!-- Horario -->
+    <string name="schedule_empty">Tu horario está vacío. Toca + para agregar una clase</string>
+    <string name="schedule_add">Nueva clase</string>
+    <string name="class_dialog_add_title">Nueva clase</string>
+    <string name="class_dialog_edit_title">Editar clase</string>
+    <string name="class_choose_subject">Elige una materia</string>
+    <string name="class_need_subject">Primero agrega una materia en la pestaña Materias</string>
+    <string name="class_field_start">Hora de inicio (HH:mm)</string>
+    <string name="class_field_end">Hora de fin (HH:mm)</string>
+    <string name="class_error_time_format">Usa el formato HH:mm, por ejemplo 08:30</string>
+    <string name="class_error_time_order">La hora de fin debe ser posterior a la de inicio</string>
+    <string name="class_item_info">%1$s – %2$s · %3$s</string>
+    <string name="home_no_classes_today">No tienes clases hoy</string>
+    <string name="day_1">Lunes</string>
+    <string name="day_2">Martes</string>
+    <string name="day_3">Miércoles</string>
+    <string name="day_4">Jueves</string>
+    <string name="day_5">Viernes</string>
+    <string name="day_6">Sábado</string>
+    <string name="day_7">Domingo</string>
+</resources>
